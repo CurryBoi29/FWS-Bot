@@ -39,7 +39,13 @@ module.exports.questions = [{
     category: "History",
     options: ["1813", "1873", "1893", "1914"],
     correct: 4
-}];
+},
+{
+    title: "What is the most followed Twitch channel?",
+    category: "Game",
+    options: ["Pokimane", "Ninja", "Tfue", "Minecraft", "Shroud", "Myth", "DrLupo", "Riot Games"],
+    correct: 2
+  }];
 
 
 
