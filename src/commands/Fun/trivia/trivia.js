@@ -41,11 +41,11 @@ module.exports.questions = [{
     correct: 4
 },
 {
-    title: "What is the most followed Twitch channel?",
+    title: "who is the most followed Twitch channel?",
     category: "Game",
     options: ["Pokimane", "Ninja", "Tfue", "Minecraft", "Shroud", "Myth", "DrLupo", "Riot Games"],
     correct: 2
-  }];
+}];
 
 
 
