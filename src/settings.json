@@ -1,0 +1,19 @@
+{
+  "verification": {
+    "enabled": false,
+    "channelID": "854436941708394567",
+    "messageID": null,
+    "verificationMsg": {
+      "content": "test",
+      "embed": {
+        "title": null,
+        "description": null,
+        "footer": null,
+        "timestamp": false,
+        "image": null,
+        "thumbnail": null,
+        "color": null
+      }
+    }
+  }
+}
