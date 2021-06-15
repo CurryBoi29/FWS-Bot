@@ -1,11 +1,17 @@
-const { MessageEmbed } = require('discord.js')
+const Discord = require('discord.js')
 const config = require(ROOT_PATH + '/config.json');
 
+/**
+ * 
+ * @param {Discord.Client} bot 
+ * @param {Discord.Message} message 
+ * @param {String[]} args 
+ */
 module.exports.run = (bot, message, args) => {
 
     let { log: parsed } = require(ROOT_PATH + '/utils/commandHandler');
 
-    let embed = new MessageEmbed()
+    let embed = new Discord.MessageEmbed()
         .setTitle("Help!").setColor("BLUE").setDescription("Commands Help list");
 
     if (args[0] == null) {

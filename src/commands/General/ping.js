@@ -1,9 +1,14 @@
-const { MessageEmbed } = require("discord.js")
+const Discord = require('discord.js')
 
-
+/**
+ * 
+ * @param {Discord.Client} bot 
+ * @param {Discord.Message} message 
+ * @param {String[]} args 
+ */
 module.exports.run = async (bot, message, args) => {
     message.channel.send({
-        embed: new MessageEmbed().setTitle("Pong!").setColor("RED").setDescription(`Ping: ${bot.ws.ping}ms`)
+        embed: new Discord.MessageEmbed().setTitle("Pong!").setColor("RED").setDescription(`Ping: ${bot.ws.ping}ms`)
     });
 }
 
